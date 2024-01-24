@@ -23,7 +23,21 @@ nav
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.logo-container a
+{
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.navigation-items a
+{   
+    color: #e5e7eb;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
