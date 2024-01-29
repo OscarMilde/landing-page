@@ -51,7 +51,7 @@ nav {
 /* Styling for the hero section */
 #hero {
     width: 100%;
-    height: 100vh;
+    height: 40vh;
     background-color: #1F2937;
     color: #f9faf8;
     text-decoration: none; 
@@ -66,6 +66,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container .image img {
+    display: flex;
+    float: right;   
 }
 
 /* Styling for heading within the container's info section */
@@ -90,4 +95,38 @@ nav {
     width: 20px; /* Adjust as needed */
     height: 100px; /* Adjust as needed */
     text-decoration: none;
+}
+
+#features {
+    background-color: white;
+    color: #1F2937;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Allow elements to wrap to the next line on smaller screens */
+}
+
+.element {
+    margin: 10px; /* Add margin for spacing between elements */
+}
+
+.element img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.text {
+    max-width: 100%; /* Adjust the maximum width of the text */
+    text-align: center;
+}
+
+.big-quote
+{
+   box-sizing: border-box; 
 }
