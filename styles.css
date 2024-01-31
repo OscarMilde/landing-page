@@ -108,6 +108,14 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+/* Set the height of the element to 100% of its parent container */
+height: 100%;
+/* Set the maximum width of the element to 1200 pixels */
+max-width: 1200px;
+/* Center the element horizontally by setting left and right margins to 'auto' */
+margin: 0 auto;
+/* Use Flexbox to create a flex container */
     flex-wrap: wrap; /* Allow elements to wrap to the next line on smaller screens */
 }
 
@@ -126,7 +134,28 @@ nav {
     text-align: center;
 }
 
+.quote-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .big-quote
 {
-   box-sizing: border-box; 
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 10vh;
+    width: 100%;
+}
+
+.small-quote
+{
+    font-size: 24px;
+    color: #1F2937;
+    max-width: 100%;
+    text-align: right;
 }
