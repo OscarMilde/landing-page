@@ -1,5 +1,3 @@
-Landing Page Project
-Overview
 This repository contains the completed landing page project as part of The Odin Project curriculum. The landing page project is a static web page built using HTML and CSS. 
 
 Contents
